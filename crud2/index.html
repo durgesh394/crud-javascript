@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crud</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        
+        <!-- header container -->
+        <div class="inputbox">
+         <div class="inputbox1"> 
+            <input type="text" placeholder="Enter Task..." id="input" autofocus/>
+            <button onclick="AddTask()" id="btn">Add</button>
+        </div>
+
+        <!-- Show Error MSg -->
+        <div>
+            <span id="ErrMas"></span>
+        </div>
+
+        </div>
+
+        <!-- table -->
+
+        <table  >
+          <thead>
+            <tr>
+              <th>SNO.</th>
+              <th>Task</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

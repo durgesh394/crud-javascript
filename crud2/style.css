@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f3f4;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 70%;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* header css :start */
+.inputbox {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.inputbox input {
+  padding: 7px;
+  width: 40%;
+  outline: none;
+  border: none;
+}
+.inputbox button {
+  padding: 7px;
+  width: 10%;
+  outline: none;
+  border: none;
+  background-color: #8e44ad;
+
+  color: #f2f3f4;
+}
+
+.inputbox1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.inputbox1 , span{
+    color: #EC7063;
+}
+
+/* table css start */
+table {
+  width: 80%;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+table
+thead
+tr {
+  background-color: #bb8fce;
+}
+table thead tr th {
+  padding: 3px;
+}
+table td {
+  padding: 6px;
+}
+table,
+tbody tr:nth-child(even) {
+  background-color: #f5eef8;
+}
+table,
+tbody tr:nth-child(odd) {
+  background-color: #f4f6f6;
+}
+.actionbtn{
+    outline: none;
+    padding: 3px;
+    margin: 4px;
+    border: none;
+    border-radius: 2px;
+}
+
+/* action button style start*/
+.fa-pen-to-square{
+    color: #58D68D;
+}
+.fa-trash{
+    color: #EC7063;
+}
+
+#taskempty{
+  width: 190%;
+ 
+  text-align: center;
+  padding: 12px;
+  font-size: 11px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
